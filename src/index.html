@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/public/css/style.css">
+    <link rel="icon" href="./public/assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Landing page ITS</title>
 </head>
 <body>
-    
+    <!-- Hice un header donde pongo el logo y agrego un nav -->
+    <header>
+        <div class="logo_its">
+            <h1>.ITS</h1>
+        </div>
+        <div class="menu_hamburguesa">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="https://itscipolletti.edu.ar/">Inscripción</a></li>
+                <li><a href="https://itscipolletti.edu.ar/institucional/">Nosotros</a></li>
+                <li><a href="https://itscipolletti.edu.ar/">Contáctanos</a></li>   
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Esta seria la seccion principal de mi landing -->
+    <section id="Inicio" class="hero">
+        <div class="hero-text">
+            <h2>Instituto Técnico Superior</h2>
+            <p>Educación al alcance de todos</p>
+            <p>El sello que distingue nuestra oferta educativa es la manera de aprender, que se lleva a cabo mediante clases prácticas, laboratorios, prácticas profesionalizantes y clases virtuales, generando un ambiente de constantes desafíos. La educación técnica superior tiene como MISIÓN la formación de técnicos superiores con habilidades, competencias y capacidades de alto nivel adecuadas a las demandas sociales, los avances científicos, tecnológicos y a los requerimientos productivos.</p>
+        </div>
+    </section>
+
+    <!-- la idea aca es tener cards en las que poder poner informacioon -->
+    <section id="info">
+        <div class="hero-text">
+            <h2>Elegí dónde estudiar</h2>
+            <p>Con nuestros estudiantes de 2do año FULL STACK Mariano, Mateo y Leandro participamos de la «Expo Patagonia Universidad», organizada por el IUPA en la Asociación Española.</p>
+            <img src="./public/assets/img/foto_de_chicos_its.jpg" alt="chicos_its">
+            <img src="./public/assets/img/foto_director.jpg" alt="foto_director_its">
+        </div>
+        <div class="hero-text">
+            <h2>Técnico Superior en DEVOPS</h2>
+            <p>Es un enfoque innovador que combina el desarrollo de software y las operaciones de TI. Esta metodología fomenta la colaboración, la automatización y la integración continua, optimizando el ciclo de vida del desarrollo de software.</p>
+            <img src="./public/assets/img/carrera_devops.jpg" alt="programa_devops">
+        </div>
+        <div class="hero-text">
+            <h2>Desarrollo de Software Full Stack</h2>
+            <p>Puede desenvolverse tanto en el frontend (parte visual) como en el backend (parte lógica) de un desarrollo web. Un Desarrollador de Software Full Stack cuenta con una faceta integral y posee conocimientos y herramientas que le permiten afrontar cualquiera de las etapas de un proyecto web.</p>
+            <img src="./public/assets/img/carrera_fullstack.jpg" alt="programa_fullstack">
+        </div>
+    </section>
+
+    <!-- Footer con links sociales -->
+    <footer>
+        <p>© 2024 Instituto Técnico Superior - Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100042874851211&mibextid=kFxxJD"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Marktos"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="./public/js/script.js"></script>
 </body>
 </html>
